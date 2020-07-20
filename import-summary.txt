@@ -1,0 +1,70 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* README.md
+* default.properties
+* proguard.cfg
+* test/
+* test/.classpath
+* test/.project
+* test/.settings/
+* test/.settings/org.eclipse.core.resources.prefs
+* test/AndroidManifest.xml
+* test/assets/
+* test/assets/sample.tja
+* test/assets/sample2.tja
+* test/proguard.cfg
+* test/project.properties
+* test/res/
+* test/res/drawable-hdpi/
+* test/res/drawable-hdpi/icon.png
+* test/res/drawable-ldpi/
+* test/res/drawable-ldpi/icon.png
+* test/res/drawable-mdpi/
+* test/res/drawable-mdpi/icon.png
+* test/res/layout/
+* test/res/layout/main.xml
+* test/res/values/
+* test/res/values/strings.xml
+* test/src/
+* test/src/com/
+* test/src/com/superguo/
+* test/src/com/superguo/jiroplayer/
+* test/src/com/superguo/jiroplayer/TJAFormat.java
+* test/src/com/superguo/jiroplayer/TJAFormatParser.java
+* test/src/com/superguo/jiroplayer/test/
+* test/src/com/superguo/jiroplayer/test/TJAFormat.java
+* test/src/com/superguo/jiroplayer/test/TJAFormatParser.java
+* test/src/com/superguo/jiroplayer/test/TJAFormatTest.java
+* test/src/com/superguo/jiroplayer/test/TestActivity.java
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
